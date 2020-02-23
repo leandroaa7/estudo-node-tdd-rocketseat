@@ -1,0 +1,23 @@
+{
+  "name": "estudo-node-tdd-rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://leandroaa7@github.com/leandroaa7/estudo-node-tdd-rocketseat.git",
+  "author": "leandroaa7 <leandroaalexandre@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}

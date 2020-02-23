@@ -1,0 +1,14 @@
+Migrations
+É o controle de versão da base de dados
+para fazer uma migrations utilizando o yarn basta digitar o comando abaixo
+- yarn sequelize db:migrate
+
+utilize o bash criar-db.sh, no linux, para criar os container no DOCKER 
+utilizando o pgadmin crie um banco com o nome 'nodeauth'
+
+
+Testes
+-Unitários, testa as funções com seus retornos. Não testa API, Cadastra no BD.. testa cálculos, funções das linguagens etc
+-Integração, testa funcionalidades de API, BD 
+
+é interessante ter uma base de dados própria para os testes
